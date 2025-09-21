@@ -127,37 +127,71 @@ All these actions generate transactions on the Blockchain.
 **Figure 2:** System Flow for the Authentic Product Verification System.
 
 ## Flowchart
-[Flowchart Text]
-**Start**
-|
-**Manufacturer (Login with Digital Identity/Wallet)**
-|-> Create Product -> Generate & Sign Digital Certificate -> Publish Certificate
-|-> Generate Certificate Hash -> Create NFT Token with Hash -> [Block Created on Blockchain]
-|-> Add Distributor (Reg.)
-|-> Transfer NFT to Distributor -> [Transaction on Blockchain]
-|
-**Distributor (Login with Wallet)**
-|-> Receives NFT -> (Optional Verification)
-|-> Add Retailer (Reg.)
-|-> Transfer NFT to Retailer -> [Transaction on Blockchain]
-|
-**Retailer (Login with Wallet)**
-|-> Receives NFT -> (Optional Verification)
-|-> Sell to Customer -> Transfer NFT to Customer -> [Transaction on Blockchain]
-|
-**Consumer (Login with Wallet / Portal Access)**
-|-> Owns NFT in Wallet
-|-> **Verify Product (Web Portal):**
-    |-> Enter NFT ID
-    |-> Portal retrieves Hash from Blockchain
-    |-> Portal retrieves Certificate from Public Repository
-    |-> Portal calculates Hash of the Certificate
-    |-> Calculated Hash == Hash from Blockchain?
-        |-> **Yes** -> Product Authentic -> Display Info (History?)
-        |-> **No** -> Product Potentially Counterfeit -> User Warning & Manufacturer Alert
-|-> (Optional: Transfer NFT to another Wallet for sale)
-|
-**Stop**
+
+```mermaid
+flowchart TD
+    Start --> Manufacturer
+
+    subgraph Manufacturer[Manufacturer Module]
+        direction TB
+        M_Login[Login with Digital Identity/Wallet] --> M_Create[Create Product]
+        M_Create --> M_GenCert[Generate & Sign Digital Certificate]
+        M_GenCert --> M_Publish[Publish Certificate]
+        M_Publish --> M_GenHash[Generate Certificate Hash]
+        M_GenHash --> M_CreateNFT[Create NFT Token with Hash]
+        M_CreateNFT --> M_Block[Block Created on Blockchain]
+        M_Block --> M_AddDist[Add Distributor]
+        M_AddDist --> M_Transfer[Transfer NFT to Distributor]
+        M_Transfer --> M_Trans[Transaction on Blockchain]
+    end
+
+    Manufacturer --> Distributor
+
+    subgraph Distributor[Distributor Module]
+        direction TB
+        D_Login[Login with Wallet] --> D_Receive[Receives NFT]
+        D_Receive --> D_Verify{Optional Verification}
+        D_Verify --> D_AddRet[Add Retailer]
+        D_AddRet --> D_Transfer[Transfer NFT to Retailer]
+        D_Transfer --> D_Trans[Transaction on Blockchain]
+    end
+
+    Distributor --> Retailer
+
+    subgraph Retailer[Retailer Module]
+        direction TB
+        R_Login[Login with Wallet] --> R_Receive[Receives NFT]
+        R_Receive --> R_Verify{Optional Verification}
+        R_Verify --> R_Sell[Sell to Customer]
+        R_Sell --> R_Transfer[Transfer NFT to Customer]
+        R_Transfer --> R_Trans[Transaction on Blockchain]
+    end
+
+    Retailer --> Consumer
+
+    subgraph Consumer[Consumer Module]
+        direction TB
+        C_Login[Login with Wallet / Portal Access] --> C_Owns[Owns NFT in Wallet]
+        C_Owns --> C_Verify[Verify Product Web Portal]
+        
+        subgraph C_Verify[Verification Process]
+            direction TB
+            CV_Enter[Enter NFT ID] --> CV_GetHash[Portal retrieves Hash from Blockchain]
+            CV_GetHash --> CV_GetCert[Portal retrieves Certificate from Public Repository]
+            CV_GetCert --> CV_CalcHash[Portal calculates Hash of the Certificate]
+            CV_CalcHash --> CV_Compare{Calculated Hash == Hash from Blockchain?}
+            CV_Compare -- Yes --> CV_Yes[Product Authentic - Display Info]
+            CV_Compare -- No --> CV_No[Product Potentially Counterfeit - User Warning & Manufacturer Alert]
+        end
+        
+        C_Verify --> C_Option[Optional: Transfer NFT to another Wallet for sale]
+    end
+
+    Consumer --> Stop[Stop]
+
+    style Start fill:#f9f,stroke:#333,stroke-width:2px
+    style Stop fill:#f9f,stroke:#333,stroke-width:2px
+```
 (All transfers and creations occur via transactions on the **Blockchain** and interact with the portal's **Database** for off-chain data and cache)
 
 ## Functional Description
