@@ -86,6 +86,20 @@ At the time of purchase, the buyer receives the NFT token in their digital walle
 
 This system completely eliminates the need to trust a central authority for the verification of the asset's authenticity or ownership. The verification is based on cryptographic mathematics and the decentralized consensus of the blockchain, making the system immune to tampering and counterfeiting.
 
+```mermaid
+flowchart
+    A[Manufacturer] -->|Creates digital certificate + hash| B[NFT Smart Contract]
+    B -->|Registers on| C[Blockchain]
+    C --> D[Verification Portal / dApp]
+    D -->|Retrieves certificate| E[Public Certificate Repository]
+    F[QR/RFID on product] -->|Contains hash / NFT ID| D
+    D -->|Hash comparison| G{Authentic?}
+    G -->|Yes| H[Show current owner]
+    G -->|No| I[Warning: possible counterfeit]
+    H --> J[NFT transfer upon sale]
+    J --> C
+```
+
 # METHODOLOGY
 
 ## System Architecture
