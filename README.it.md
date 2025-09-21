@@ -1,4 +1,32 @@
-#SINTESI
+
+# **Un Semplice Scan che Rivoluziona la Sicurezza**
+
+**Guarantee of authenticity** è un sistema innovativo che protegge acquirenti e venditori dalla contraffazione. La sua forza sta nella **semplicità d'uso**: basta inquadrare il codice sul prodotto con il proprio smartphone per ottenere una verifica immediata e certa della sua autenticità e della legittima proprietà.
+
+Questo risultato è possibile grazie a una tecnologia sottostante estremamente avanzata—basata su blockchain e crittografia—che però rimane completamente invisibile all'utente. Per te, è semplice come scattare una foto.
+
+**Perché è un'Evoluzione Rispetto agli Altri Sistemi?**
+
+I metodi attuali (come i codici QR che si collegano a un sito web) si basano sulla fiducia: ti devi fidare che il database a cui quel codice si collega sia gestito in modo onesto e sicuro. **VerificaAutentica** elimina completamente questa necessità, introducendo un sistema **"trustless"**.
+
+## **Cosa significa "Trustless" (Senza Fiducia)?**
+
+In crittografia, **"trustless"** non significa "non fidato". Al contrario, significa che il sistema è progettato in modo tale che **non sei obbligato a fidarti di nessuno** perché puoi verificare tutto tu stesso.
+
+*   **Sistema Tradizionale (con Fiducia):** È come un'autorità che ti dice "Questo prodotto è autentico, fidati di me". Tu devi sperare che quell'autorità sia onesta e che il suo database non sia stato manomesso.
+*   **Sistema Trustless (Senza Fiducia):** È come un lucchetto trasparente con una firma unica e impossibile da copiare. Chiunque può guardare il lucchetto e, seguendo delle regole matematiche pubbliche, verificare con certezza se è autentico o meno, **senza doversi fidare dell'opinione di un altro**.
+
+**VerificaAutentica** applica questo principio: la prova dell'autenticità non risiede in un database centrale, ma in una "firma digitale" unica e incontrovertibile associata a ogni singolo prodotto, verificabile autonomamente da chiunque in pochi secondi.
+
+**Il Vantaggio per Te:**
+
+*   **Certezza Assoluta:** La verifica si basa su leggi matematiche, non sulla promessa di qualcuno.
+*   **Trasparenza Totale:** Puoi vedere tutta la storia di provenienza del prodotto.
+*   **Semplicità:** Nessuna competenza tecnica richiesta. Scansiona e ottieni la risposta.
+
+**Guarantee of authenticity:** la complessità della crittografia che lavora per te, per offrirti la semplicità di una verifica di cui ti puoi fidare.
+
+# SINTESI
 
 La tecnologia anti-contraffazione ha attirato notevole attenzione con lo sviluppo economico. Sono stati prodotti molti prodotti contraffatti difficili da identificare, che danneggiano gravemente gli interessi dei consumatori. L'atteggiamento del pubblico di cercare il piccolo risparmio e il basso costo ha incoraggiato produttori privi di scrupoli ad approfittarne, offrendo prodotti contraffatti a basso costo, comprimendo i profitti dei produttori legittimi e facendo perdere fiducia nel pubblico sulla qualità dei prodotti. Attualmente, il sistema anti-contraffazione più diffuso si basa su codici QR o tag RFID disponibili sul mercato, ma questi sistemi spesso fanno affidamento su database centralizzati, introducendo punti unici di fallimento e necessità di fiducia nell'ente gestore.
 
@@ -8,19 +36,19 @@ Il possesso di questo token NFT equivale al titolo di proprietà digitale del be
 
 **Parole chiave:** Tecnologia anti-contraffazione, Blockchain, NFT (Token Non Fungibile), Firma digitale, Certificato digitale, Tracciabilità, Proprietà digitale, Sistema Trustless, QR Code, RFID
 
-#INTRODUZIONE
+# PREMESSA
 
 La contraffazione consiste nella produzione, importazione, esportazione, distribuzione e vendita di beni di consumo non autentici ma progettati e marchiati per apparire identici ai prodotti originali. Viene effettuata per ingannare i consumatori, convincendoli della loro autenticità. La contraffazione include anche l'apposizione del marchio o del logo di un noto brand consumer su un prodotto, sebbene quest'ultimo non sia effettivamente realizzato o autorizzato da quel marchio. In termini semplici, i prodotti contraffatti sono imitazioni di prodotti reali fabbricati senza l'approvazione del proprietario del marchio. I prodotti contraffatti sono generalmente di qualità sostanzialmente inferiore rispetto ai beni autentici e possono persino essere pericolosi, poiché spesso sono realizzati in modo scadente o utilizzando sostanze chimiche e materiali pericolosi o tossici. I prodotti contraffatti spaziano da beni di lusso di alta gamma come orologi, profumi o pelletteria, a prodotti business-to-business come macchinari, prodotti chimici o ricambi, fino a comuni prodotti di consumo come giocattoli, farmaci, cosmetici e alimenti. In effetti, qualsiasi prodotto protetto da proprietà intellettuale può essere contraffatto. Sfortunatamente, molte aziende note e di successo, in quasi tutti i settori, sono vittime della contraffazione.
 
-##Storia della Blockchain
+## Storia della Blockchain
 
 La blockchain non è solo un database, ma una nuova stack tecnologica con "fiducia digitale" che sta rivoluzionando il modo in cui scambiamo valore e informazioni attraverso Internet, eliminando le "figure intermediarie" dal processo. Il primo protocollo simile a una blockchain fu proposto dal crittografo David Chaum nel 1982. Successivamente, nel 1991, Stuart Haber e W. Scott Stornetta scrissero del loro lavoro sui Consortium. Ma fue Satoshi Nakamoto (presunto pseudonimo di una persona o gruppo di persone) a inventare e implementare la prima rete blockchain dopo aver distribuito la prima valuta digitale al mondo, il Bitcoin. Poiché la tecnologia blockchain è la tecnologia sottostante, non può essere posseduta. È come Internet. Ma chiunque può utilizzare la tecnologia per eseguire e possedere le proprie blockchain.
 
-##Dichiarazione del Problema
+## Dichiarazione del Problema
 
 La contraffazione non è un crimine senza vittime. I contraffattori spesso approfittano del desiderio dei consumatori per prezzi bassi. Acquistare prodotti contraffatti può sembrare un'opzione economica rispetto all'originale, ma quel prezzo basso ha un costo elevato per sé stessi e per gli altri. Le organizzazioni manifatturiere che operano in conformità alla legge sono minacciate dalla contraffazione perché causa perdite di ricavi. La contraffazione può avvenire sia con prodotti locali che di marca. I prodotti contraffatti e di bassa qualità ignorano la sicurezza dei consumatori. I prodotti contraffatti degradano l'economia. Un portale di verifica dei prodotti basato su vendor presenta diverse limitazioni, tra cui violazioni della sicurezza e inaccessibilità a lungo termine. La necessità è quindi di un sistema decentralizzato, immutabile e verificabile pubblicamente che certifichi l'origine e la proprietà di un bene.
 
-##Sistema Esistente
+## Sistema Esistente
 
 La maggior parte delle aziende che valorizzano il proprio marchio e business dispone di meccanismi di tracciamento e controllo per scoraggiare, se non eliminare, la produzione e distribuzione di contraffatti. Ciò include adesivi ologrammi, filigrane, comunicazione di massa, controlli a sorpresa, sistemi di distribuzione controllati e implementazioni robuste di sistemi ERP.
 *   **Identificazione di contraffatti tramite codice QR su smartphone:** La soluzione prevede una semplice identificazione basata su codice QR che può aiutare l'utente finale e il venditore dell'azienda a scansionare e identificare l'autenticità del prodotto utilizzando uno smartphone.
@@ -29,7 +57,7 @@ La maggior parte delle aziende che valorizzano il proprio marchio e business dis
 *   **Metodo anti-contraffazione basato su etichetta elettronica RFID:** Secondo il metodo, viene effettuato un binding tra un'etichetta elettronica a ultra alta frequenza e un prodotto che necessita di un processo anti-contraffazione.
 Questi sistemi, sebbene utili, spesso rimangono centralizzati o isolati, limitandone l'efficacia e la fiducia complessiva.
 
-##Sistema Proposto
+## Sistema Proposto
 
 Nel sistema anti-contraffazione basato su Blockchain proposto, ciascun **soggetto coinvolto nella filiera** (ad esempio, fornitori, produttori, fabbriche, operatori logistici, rivenditori e consumatori) partecipa come nodo della Blockchain per effettuare transazioni e contribuire a mantenere la Blockchain aggiornata. Unendosi alla Blockchain, a ciascun nodo viene assegnata una coppia di chiavi pubblica/privata per eseguire operazioni crittografiche sicure secondo l'architettura Blockchain.
 
@@ -59,9 +87,9 @@ Al momento dell'acquisto, l'acquirente riceve nel proprio wallet digitale il tok
 
 Questo sistema elimina completamente la necessità di fidarsi di un ente centrale per la verifica dell'autenticità o della titolarità del bene. La verifica si basa su matematica crittografica e sul consenso decentralizzato della blockchain, rendendo il sistema immune a manomissioni e contraffazioni.
 
-**2. SPECIFICHE DEI REQUISITI**
+# PECIFICHE DEI REQUISITI
 
-**2.1 Requisiti Software**
+## Requisiti Software
 
 *   **Lato Server:** Python 3.7.4 (64-bit) o (32-bit)
 *   **Lato Client:** HTML, CSS, JavaScript, Bootstrap (o framework frontend simile)
@@ -74,15 +102,15 @@ Questo sistema elimina completamente la necessità di fidarsi di un ente central
 *   **Server:** WampServer 2i (o stack LAMP/MAMP equivalente)
 *   **Altri strumenti:** Node Package Manager (npm), Virtualenv, Ganache (per sviluppo locale), IPFS (opzionale, per memorizzare metadati NFT o certificati off-chain).
 
-**2.2 Requisiti Hardware**
+## Requisiti Hardware
 
 *   **Processori:** Intel® Core™ i5 processor 4300M a 2.60 GHz o 2.59 GHz (1 socket, 2 core, 2 thread per core), 8 GB de RAM (si consigliano 16 GB per un nodo blockchain completo locale)
 *   **Spazio su disco:** 320 GB (lo spazio necessario per un nodo blockchain completo può essere significativamente maggiore, a seconda della blockchain scelta)
 *   **Sistemi operativi:** Windows® 10, macOS*, e Linux* (Linux è spesso preferito per nodi server)
 
-**3. METODOLOGIA**
+# METODOLOGIA
 
-**3.1 Architettura del Sistema**
+## Architettura del Sistema
 Un'architettura di sistema è il modello concettuale che definisce la struttura, il comportamento e altre viste di un sistema. Una descrizione architetturale è una descrizione e rappresentazione formale di un sistema, organizzata in modo da supportare il ragionamento sulle strutture e sui comportamenti del sistema.
 
 **Innovazione Trustless e Ruolo del Codice Fisico:**
@@ -98,7 +126,7 @@ L'utente non deve fidarsi della piattaforma: può potenzialmente verificare in a
 
 **Figura 1:** Architettura di Sistema del Sistema di Verifica dei Prodotti Autentici con integrazione NFT e Certificati Digitali.
 
-**3.2 Flusso del Sistema**
+## Flusso del Sistema
 I flussi di sistema sono modelli che show le attività e le decisioni che i sistemi eseguono. Sono utili per comprendere interazioni di sistema complesse perché mostrano visivamente le interazioni avanti e indietro tra i sistemi e i rami complessi.
 
 **Flusso Principale: Autenticazione e Verifica Proprietà**
@@ -120,7 +148,7 @@ Tutte queste azioni generano transazioni sulla Blockchain.
 
 **Figura 2:** Flusso di Sistema per il Sistema di Verifica dei Prodotti Autentici.
 
-**3.3 Diagramma di Flusso (Flowchart)**
+## Diagramma di Flusso (Flowchart)
 [Testo del flowchart]
 **Start**
 |
@@ -154,7 +182,7 @@ Tutte queste azioni generano transazioni sulla Blockchain.
 **Stop**
 (Tutti i trasferimenti e le creazioni avvengono tramite transazioni sulla **Blockchain** e interagiscono con il **Database** del portale per dati off-chain e cache)
 
-**3.4 Descrizione del Funzionamento**
+## Descrizione del Funzionamento
 
 I sistemi basati su blockchain per l'anti-contraffazione sono realizzati sviluppando un portale dedicato integrato con smart contract per la gestione di NFT. Il sistema è utilizzato da produttori, distributori, rivenditori e clienti, ciascuno dotato di un wallet digitale.
 
@@ -179,9 +207,9 @@ Quando un utente scansiona il **codice QR o RFID** sul prodotto:
 
 Questo processo garantisce che la verifica dell'autenticità e della legittima proprietà sia completamente decentralizzata, basata su prove crittografiche e non richieda fiducia in alcuna delle parti involved o in un'autorità di certificazione centrale.
 
-**3.5 Moduli**
+# Moduli
 
-**3.5.1 Portale Web / dApp di Verifica Pubblica Trustless**
+## Portale Web / dApp di Verifica Pubblica Trustless
 Questo modulo è fondamentale per l'approccio trustless. È un'applicazione web decentralizzata (dApp) o un portale con le seguenti caratteristiche:
 *   **Accesso Pubblico e Anonimo:** Non richiede registrazione, login o fornitura di dati personali per la verifica di base.
 *   **Interfaccia di Verifica Semplice:** Un campo per inserire un codice o una funzionalità di scansione QR/RFID.
@@ -190,41 +218,41 @@ Questo modulo è fondamentale per l'approccio trustless. È un'applicazione web 
 *   **Motore di Verifica Crittografica:** Esegue localmente nel browser dell'utente il calcolo dell'hash del certificato recuperato e il confronto con quello sulla blockchain.
 *   **Visualizzazione Risultati Chiara:** Mostra in modo inequivocabile l'esito della verifica (Autentico/Non Autentico) e la chiave pubblica del proprietario legittimo, senza interpretazioni o necessità di fidarsi del portale stesso.
 
-**3.5.2 Integrazione Blockchain e Smart Contract**
+## Integrazione Blockchain e Smart Contract
 Questo modulo è fondamentale e ha diverse funzioni:
 *   **Comunicazione con la Blockchain:** Interagisce con la rete blockchain (es: Ethereum) utilizzando librerie come Web3.js o Web3.py per leggere dati (hash, proprietari) e inviare transazioni (trasferimenti).
 *   **Gestione degli Smart Contract:** Distribuisce e interagisce con gli smart contract che governano la creazione e il trasferimento dei token NFT.
 *   **Scelta del Tipo di Nodo:** Fornisce opzioni per gli utenti per essere un nodo completo (che sincronizza tutta la blockchain) o un nodo leggero (che si affida a provider esterni per accedere ai dati). Per gli utenti finali, la modalità light è preferibile per ridurre i costi di manutenzione.
 
-**3.5.3 Smart Contract**
+## Smart Contract
 Simile a un trasferimento di valore su una blockchain, la distribuzione di uno smart contract su una blockchain occurs inviando una transazione from a wallet for the blockchain. La transazione include il codice compilato per lo smart contract as well as a special receiver address. That transaction must then be included in a block that is added to the blockchain, at which point the smart contract’s code will execute to establish the initial state of the smart contract. Gli smart contract in questo sistema gestiscono:
 *   La creazione dei Token NFT (con incorporazione hash certificato).
 *   Le regole di trasferimento dei token tra wallet (proprietà).
 *   Il mantenimento di un registro immutabile di tutti i trasferimenti.
 
-**3.5.4 Modulo Utente Finale**
+## Modulo Utente Finale
 
-**3.5.4.1 Produttore**
+## Produttore
 Il produttore è l'entità che da vita al prodotto nel sistema digitale. Oltre ad acquistare materie prime e produrre il bene, ha il compito cruciale di:
 *   Generare e firmare digitalmente il **Certificato Digitale** per ogni prodotto o lotto.
 *   Pubblicare il certificato in un **Repository Pubblico**.
 *   Utilizzare uno **smart contract** per coniare il **Token NFT** corrispondente, incorporando l'hash del certificato.
 *   Trasferire il token NFT al primo soggetto della filiera (es. distributore).
 
-**3.5.4.2 Distributori**
+## Distributori
 Come intermediario nella filiera, il distributore aggiorna la proprietà digitale ricevendo e trasferendo il token NFT, garantendo che la catena di custodia digitale rimanga intatta e verificabile.
 
-**3.5.4.3 Retailers**
+## Retailers
 Il rivenditore è il punto di contatto finale prima del consumatore. Acquista prodotti (e token NFT) dal distributore e li trasferisce ai consumatori finali al momento della vendita. Ha un diretto interesse a verificare l'autenticità dei prodotti che acquista e a trasferire correttamente la proprietà per garantire la soddisfazione del cliente e la protezione del proprio brand.
 
-**3.5.4.4 Consumers**
+## Consumers
 Il consumatore è il proprietario finale. Può scegliere di partecipare alla rete come nodo leggero, verificando l'autenticità e la proprietà interrogando la blockchain, o come nodo completo. Riceve il token NFT al momento dell'acquisto, diventando il proprietario registrato del bene.
 
-**4. ANALISI DELLA SICUREZZA E ROBUSTEZZA DEL MODELLO**
+# ANALISI DELLA SICUREZZA E ROBUSTEZZA DEL MODELLO
 
 Il sistema proposto introduce un paradigma radicalmente nuovo nella verifica dell'autenticità e nella gestione della proprietà. Per comprenderne appieno il valore, è necessario analizzarne la robustezza rispetto a potenziali attacchi e chiarire la filosofia pratica alla base del concetto di proprietà digitale.
 
-**4.1 Immunità alla Clonazione del Puntatore Fisico**
+## Immunità alla Clonazione del Puntatore Fisico
 
 Un'obiezione comune ai sistemi basati su QR code è la presunta facilità con cui un malintenzionato può clonare il codice da un prodotto autentico e apporlo su uno contraffatto. Tuttavia, questa vulnerabilità è tipica dei sistemi centralizzati dove il codice *è* la credenziale. Nel nostro sistema **decentralizzato e basato sulla proprietà del token**, il codice QR è un **mero puntatore** e la sua clonazione non conferisce alcun vantaggio reale al contraffattore, anzi, lo espone a rischi immediati.
 
@@ -246,7 +274,7 @@ Si considerino due scenari:
 
 Pertanto, l'utilizzo di QR code standard si rivela **sufficiente e sicuro** in questa architettura. La necessità di tag anti-clonazione costosi (ologrammi, NFC crittografici) viene meno, poiché la sicurezza non è affidata all'inviolabilità del tag fisico, ma alla **impossibilità di trasferire la proprietà digitale senza il consenso crittografico del proprietario** del token.
 
-**4.2 Il Modello Pratico di Proprietà Digitale**
+## Il Modello Pratico di Proprietà Digitale
 
 Il sistema opera su un **modello di proprietà pratica e consensuale** che, pur non sostituendo formalmente i contratti giuridici, stabilisce una prova di proprietà incontrovertibile e verificabile da tutte le parti coinvolte.
 
@@ -269,29 +297,18 @@ In questo modello, tutte le parti conoscono e accettano le regole del "gioco": i
 
 Questo sistema si regge quindi non su un formale costrutto giuridico impositivo, ma su un **ecosistema di valore condiviso e su un meccanismo tecnologicamente enforced** che allinea perfettamente gli incentivi di tutte le parti, rendendo la frode non vantaggiosa e immediatamente rilevabile. La proprietà digitale diventa una convenzione pratica, estremamente robusta e utile, che vive affiancata al sistema giuridico tradizionale, fornendo uno strumento di verifica e trasferimento senza precedenti in termini di velocità, sicurezza e trasparenza.
 
-**5. RISULTATI E DISCUSSIONE**
+# RISULTATI E DISCUSSIONE
 
 Il sistema proposto raggiunge un livello di **decentralizzazione e trustlessness** superiore alle soluzioni esistenti. L'utilizzo del token NFT come rappresentazione della proprietà legale, associato al meccanismo di verifica crittografica che sfrutta un semplice codice QR/RFID come semplice puntatore, elimina qualsiasi punto di fallimento centralizzato. I consumatori possono verificare in modo indipendente e senza bisogno di fidarsi del venditore o di un ente terzo sia l'autenticità del prodotto che la legittimità della sua proprietà prima di un acquisto, semplicemente scansionando un codice e confrontando chiavi pubbliche. Questo rappresenta un avanzamento significativo verso relazioni commerciali più trasparenti e sicure.
 
-**6. CONCLUSIONI**
+# CONCLUSIONI
 
-**6.1 Summary**
+## Summary
 
 In questo progetto, è stato proposto un sistema di verifica dei prodotti autentici basato su tecnologia blockchain e token NFT, in cui tutte le storie di trasferimento della proprietà digitale sono registrate perpetualmente in un registro immutabile utilizzando smart contract. Il processo di registrazione del prodotto, trasferimento, tracciamento e verifica è realizzato attraverso la collaborazione di smart contract e un portale di verifica trustless. I consumatori possono unirsi alla rete come nodi leggeri per verificare l'autenticità e la proprietà. Il sistema ha caratteristiche **decentralizzate e trustless** evidenti, che eliminano la possibilità di manomissione privata dei dati e la necessità di fidarsi di un verificatore centrale. Il codice fisico sul prodotto (QR/RFID) assume il ruolo minimale e sicuro di semplice link al sistema di verifica, mentre la prova definitiva di autenticità e proprietà risiede nella matematica crittografica e nel consenso decentralizzato della blockchain. Attraverso un'analisi approfondita delle esigenze, abbiamo progettato un sistema decentralizzato basato su blockchain e rete KYPC/NFT. Per alleviare il problema dell'esplosione dei dati, utilizziamo una gestione collaborativa dei dati on-chain e off-chain. Per proteggere le informazioni commerciali sensibili, utilizziamo smart contract di livello aziendale invece dei tradizionali record transazionali.
 
-**6.2 Raccomandazioni per progetti futuri**
+## Raccomandazioni per progetti futuri
 
 Ottimizzare il sistema di tracciabilità proposto è il nostro futuro lavoro di ricerca: Realizzare il caricamento formattato dei dati utilizzando la tecnologia IoT, riducendo la possibilità di errori di inserimento manuale. Esplorare l'integrazione con sistemi di Identity Decentralizzata (DID) per una gestione dell'identità del produttore e del cliente ancora più robusta e privacy-oriented.
 
-**7. RIFERIMENTI BIBLIOGRAFICI**
 
-[1] S. A. H. S. Amiri, A. Zahedi, M. Kazemi, J. Soroor, and M. HajiaghaeiKeshteli, "Determination of the optimal sales level of perishable goods in a twoechelon supply chain network," Comput. Ind. Eng., vol. 139, Jan. 2020, Art. no. 106156, doi: 10.1016/j.cie.2019.106156.
-[2] J. Sun, J. Tang, W. Fu, Z. Chen, and Y. Niu, "Construction of a multiechelon supply chain complex network evolution model and robustness analysis of cascading failure," Comput. Ind. Eng., vol. 144, Jun. 2020, Art. no. 106457, doi: 10.1016/j.cie.2020.106457.
-[3] A. Batwa and A. Norrman, "A framework for exploring blockchain technology in supply chain management," Oper. Supply Chain Manage., Int. J., vol. 13, pp. 294-306, Apr. 2020, doi: 10.31387/OSCM020271.
-[4] M. Abdirad and K. Krishnan, "Industry 4.0 in logistics and supply chain management: A systematic literature review," Eng. Manage. J., pp. 1-15, Jul. 2020, doi: 10.1080/10429247.2020.1783935.
-[5] J. Yoon, S. Talluri, and C. Rosales, "Procurement decisions and information sharing under multi-tier disruption risk in a supply chain,"Int. J. Prod. Res., vol. 58, no. 5, pp. 1362-1383, Mar. 2020, doi: 10.1080/00207543.2019.1634296.
-[6] D. Ivanov, "Predicting the impacts of epidemic outbreaks on global supply chains: A simulation-based analysis on the coronavirus outbreak (COVID-19/SARSCoV-2) case," Transp. Res. E, Logistics Transp. Rev., vol. 136, Apr. 2020, Art. no. 101922, doi: 10.1016/j.tre.2020.101922.
-[7] T. Sawik, "Two-period vs. multi-period model for supply chain disruption management," Int. J. Prod. Res., vol. 57, no. 14, pp. 4502-4518, Jul. 2019, doi: 10.1080/00207543.2018.1504246.
-[8] A. Alora and M. K. Barua, "An integrated structural modelling and MICMAC analysis for supply chain disruption risk classification and prioritization in 32 India," Int. J. Value Chain Manage., vol. 10, no. 1, p. 1, 2019.
-[9] V. Ahlyvst, A. Norrman, and M. Jahre, "Supply chain risk governance: Towards a conceptual multi-level framework," Oper. Supply Chain Manage., Int. J., vol. 13, no. 4, pp. 382395, 2020, doi: 10.31387/oscm0430278.
-[10] L. Luo, G. Q. Shen, G. Xu, Y. Liu, and Y. Wang, "Stakeholder-associated supply chain risks and their interactions in a prefabricated building project in Hong Kong," J. Manage. Eng., vol. 35, no. 2, Mar. 2019, Art. no. 05018015, doi: 10.1061/(ASCE)ME.1943-5479.0000675.
