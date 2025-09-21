@@ -87,7 +87,7 @@ Al momento dell'acquisto, l'acquirente riceve nel proprio wallet digitale il tok
 
 Questo sistema elimina completamente la necessità di fidarsi di un ente centrale per la verifica dell'autenticità o della titolarità del bene. La verifica si basa su matematica crittografica e sul consenso decentralizzato della blockchain, rendendo il sistema immune a manomissioni e contraffazioni.
 
-'''marmaid
+```mermaid
 flowchart
     A[Produttore] -->|Crea certificato digitale + hash| B[Smart Contract NFT]
     B -->|Registra su| C[Blockchain]
@@ -99,7 +99,7 @@ flowchart
     G -->|No| I[Avviso: possibile contraffazione]
     H --> J[Trasferimento NFT alla vendita]
     J --> C
-'''
+```
 
 # METODOLOGIA
 
