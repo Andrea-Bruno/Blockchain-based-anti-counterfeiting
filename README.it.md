@@ -128,37 +128,71 @@ Tutte queste azioni generano transazioni sulla Blockchain.
 **Figura 2:** Flusso di Sistema per il Sistema di Verifica dei Prodotti Autentici.
 
 ## Diagramma di Flusso (Flowchart)
-[Testo del flowchart]
-**Start**
-|
-**Produttore (Login con Identità Digitale/Wallet)**
-|-> Crea Prodotto -> Genera & Firma Certificato Digitale -> Pubblica Certificato
-|-> Genera Hash Certificato -> Crea Token NFT con Hash -> [Blocco Creato su Blockchain]
-|-> Aggiungi Distributore (Reg.)
-|-> Trasferisci NFT al Distributore -> [Transazione su Blockchain]
-|
-**Distributore (Login con Wallet)**
-|-> Riceve NFT -> (Verifica Opzionale)
-|-> Aggiungi Rivenditore (Reg.)
-|-> Trasferisci NFT al Rivenditore -> [Transazione su Blockchain]
-|
-**Rivenditore (Login con Wallet)**
-|-> Riceve NFT -> (Verifica Opzionale)
-|-> Vendi a Cliente -> Trasferisci NFT al Cliente -> [Transazione su Blockchain]
-|
-**Consumatore (Login con Wallet / Accesso Portale)**
-|-> Possiede NFT nel Wallet
-|-> **Verifica Prodotto (Portale Web):**
-    |-> Inserisci ID NFT
-    |-> Portale recupera Hash da Blockchain
-    |-> Portale recupera Certificato da Repository Pubblico
-    |-> Portale calcola Hash del Certificato
-    |-> Hash Calcolato == Hash da Blockchain?
-        |-> **Sì** -> Prodotto Autentico -> Visualizza Info (Storico?)
-        |-> **No** -> Prodotto Potenzialmente Contraffatto -> Avviso Utente & Produttore
-|-> (Opzionale: Trasferisci NFT ad altro Wallet per vendita)
-|
-**Stop**
+
+```mermaid
+flowchart TD
+    Inizio([Inizio]) --> Produttore
+
+    subgraph Produttore[Modulo Produttore]
+        direction TB
+        P_Login[Login con Identità Digitale/Wallet] --> P_Crea[Crea Prodotto]
+        P_Crea --> P_GenCert[Genera & Firma Certificato Digitale]
+        P_GenCert --> P_Pubblica[Pubblica Certificato]
+        P_Pubblica --> P_GenHash[Genera Hash del Certificato]
+        P_GenHash --> P_CreaNFT[Crea Token NFT con Hash]
+        P_CreaNFT --> P_Blocco[Blocco Creato su Blockchain]
+        P_Blocco --> P_AggiungiDist[Aggiungi Distributore]
+        P_AggiungiDist --> P_Trasferisci[Trasferisci NFT al Distributore]
+        P_Trasferisci --> P_Trans[Transazione su Blockchain]
+    end
+
+    Produttore --> Distributore
+
+    subgraph Distributore[Modulo Distributore]
+        direction TB
+        D_Login[Login con Wallet] --> D_Riceve[Riceve NFT]
+        D_Riceve --> D_Verifica{Verifica Opzionale}
+        D_Verifica --> D_AggiungiRiv[Aggiungi Rivenditore]
+        D_AggiungiRiv --> D_Trasferisci[Trasferisci NFT al Rivenditore]
+        D_Trasferisci --> D_Trans[Transazione su Blockchain]
+    end
+
+    Distributore --> Rivenditore
+
+    subgraph Rivenditore[Modulo Rivenditore]
+        direction TB
+        R_Login[Login con Wallet] --> R_Riceve[Riceve NFT]
+        R_Riceve --> R_Verifica{Verifica Opzionale}
+        R_Verifica --> R_Vendi[Vendi a Cliente]
+        R_Vendi --> R_Trasferisci[Trasferisci NFT al Cliente]
+        R_Trasferisci --> R_Trans[Transazione su Blockchain]
+    end
+
+    Rivenditore --> Cliente
+
+    subgraph Cliente[Modulo Cliente]
+        direction TB
+        C_Login[Login con Wallet / Accesso Portale] --> C_Possiede[Possiede NFT nel Wallet]
+        C_Possiede --> C_Verifica[Verifica Prodotto Portale Web]
+        
+        subgraph C_Verifica[Processo di Verifica]
+            direction TB
+            CV_Inserisci[Inserisci ID NFT] --> CV_RecHash[Portale recupera Hash da Blockchain]
+            CV_RecHash --> CV_RecCert[Portale recupera Certificato da Repository Pubblico]
+            CV_RecCert --> CV_CalcHash[Portale calcola Hash del Certificato]
+            CV_CalcHash --> CV_Confronta{Hash Calcolato == Hash da Blockchain?}
+            CV_Confronta -- Sì --> CV_Sì[Prodotto Autentico - Mostra Info]
+            CV_Confronta -- No --> CV_No[Prodotto Potenzialmente Contraffatto - Avviso Utente & Produttore]
+        end
+        
+        C_Verifica --> C_Opzionale[Opzionale: Trasferisci NFT per vendita]
+    end
+
+    Cliente --> Fine([Fine])
+
+    style Inizio fill:#f9f,stroke:#333,stroke-width:2px
+    style Fine fill:#f9f,stroke:#333,stroke-width:2px
+```
 (Tutti i trasferimenti e le creazioni avvengono tramite transazioni sulla **Blockchain** e interagiscono con il **Database** del portale per dati off-chain e cache)
 
 ## Descrizione del Funzionamento
