@@ -87,27 +87,6 @@ Al momento dell'acquisto, l'acquirente riceve nel proprio wallet digitale il tok
 
 Questo sistema elimina completamente la necessità di fidarsi di un ente centrale per la verifica dell'autenticità o della titolarità del bene. La verifica si basa su matematica crittografica e sul consenso decentralizzato della blockchain, rendendo il sistema immune a manomissioni e contraffazioni.
 
-# PECIFICHE DEI REQUISITI
-
-## Requisiti Software
-
-*   **Lato Server:** Python 3.7.4 (64-bit) o (32-bit)
-*   **Lato Client:** HTML, CSS, JavaScript, Bootstrap (o framework frontend simile)
-*   **Framework Backend:** Flask 1.1.1 (o Django per gestione utenti più complessa)
-*   **Back end Database:** MySQL 5 (per dati off-chain e cache)
-*   **Blockchain & Smart Contract:** Solidity (o Vyper), Web3.py libreria, Node.js, Truffle Suite/Hardhat (per sviluppo e testing)
-*   **Infrastruttura Blockchain:** Rete Ethereum, Polygon, o altra EVM-compatible per NFT e smart contract (o una blockchain permissioned basata su Geth/Besu).
-*   **Gestione Wallet:** Integrazione con MetaMask o librerie simili (es: Web3Modal) per la gestione dei wallet utente.
-*   **Firme Digitali:** Librerie crittografiche (es: OpenSSL integrato, `cryptography` in Python) per la generazione e verifica delle firme dei certificati digitali (il processo principale avverrà comunque on-chain per i trasferimenti NFT).
-*   **Server:** WampServer 2i (o stack LAMP/MAMP equivalente)
-*   **Altri strumenti:** Node Package Manager (npm), Virtualenv, Ganache (per sviluppo locale), IPFS (opzionale, per memorizzare metadati NFT o certificati off-chain).
-
-## Requisiti Hardware
-
-*   **Processori:** Intel® Core™ i5 processor 4300M a 2.60 GHz o 2.59 GHz (1 socket, 2 core, 2 thread per core), 8 GB de RAM (si consigliano 16 GB per un nodo blockchain completo locale)
-*   **Spazio su disco:** 320 GB (lo spazio necessario per un nodo blockchain completo può essere significativamente maggiore, a seconda della blockchain scelta)
-*   **Sistemi operativi:** Windows® 10, macOS*, e Linux* (Linux è spesso preferito per nodi server)
-
 # METODOLOGIA
 
 ## Architettura del Sistema
